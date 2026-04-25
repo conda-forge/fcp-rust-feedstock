@@ -1,5 +1,5 @@
 context:
-  version: 0.2.1
+  version: "0.2.2"
 
 package:
   name: fcp-rust
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/Svetlitski/fcp/archive/v${{ version }}.tar.gz
-  sha256: e835d014849f5a3431a0798bcac02332915084bf4f4070fb1c6914b1865295f2
+  sha256: c8c3da588711b1684370009e9a186232fe3c6c0db7ceff00b0ce0dacb98b9403
 
 build:
-  number: 1
+  number: 0
   skip: win
 
 requirements:
